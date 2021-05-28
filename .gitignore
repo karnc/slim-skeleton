@@ -1,0 +1,4 @@
+/vendor/
+.env
+/runtime/temp
+/runtime/logs

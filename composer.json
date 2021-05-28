@@ -1,0 +1,26 @@
+{
+    "require": {
+        "slim/slim": "^3.12",
+        "slim/twig-view": "^2.5",
+        "slim/flash": "^0.4.0",
+        "slim/csrf": "^0.8.3",
+        "doctrine/cache": "^1.6",
+        "monolog/monolog": "^1.25",
+        "tracy/tracy": "^2.5",
+        "illuminate/database": "^5.4",
+        "vlucas/phpdotenv": "^4.1",
+        "tuupola/slim-jwt-auth": "^2.4",
+        "tuupola/base62": "^1.0",
+        "gregwar/captcha": "^1.1",
+        "stefangabos/zebra_session": "^3.0",
+        "respect/validation": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "bootstrap/helpers.php"
+        ]
+    }
+}
